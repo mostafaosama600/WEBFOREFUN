@@ -1,0 +1,120 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* upper nav css start */
+.upper-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#6D4326;
+    height: 6vh;
+
+}
+.links a{
+    color: #efefee !important;
+}
+/* upper nav css end  */
+/* navbar css start */
+.navbar{
+    background-color: #efefee;
+    height: 10vh;
+    font-weight: bolder;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 60px;
+    padding: 3px 10px;
+    color: white;
+    font-weight: 600;
+}
+.links a:hover{
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
+.mainpic{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../data/leone-venter-pVt9j3iWtPM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav-link a{
+    margin-left: 60px;
+    padding: 3px 10px;
+    color: white;
+}
+.nav-link:hover{
+    border: 1px solid #222;
+    transition: 0.5;
+    border-radius: 5px;
+    color: #333 !important;
+
+}
+/* nav bar css end */
+/* mainpic& main paragrahph start */
+
+
+.para{
+    color: #222;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #6D4326;
+    color: #efefee;
+    font-weight: 500;
+
+}
+.btn:hover{
+
+    background-color: #efefee;
+    color: #6D4326;
+    transition: 0.3s;
+}
+.btnOne{
+    padding: 3px 12px !important;
+    border-radius: 10px;
+    background-color: #efefee;
+    color: #6D4326;
+    font-weight: 500;
+}
+.btnOne:hover{
+    background-color: #6D4326;
+    transition: 0.4s;
+    color: #efefee;
+    font-weight: 500;
+}
+/* mainpic and main paraghraph end */
+/* cards start */
+/* .card{
+    background-color:lightgrey;
+    color: black;
+    height: 225px;
+} */
+/* card end */
+/* footer start */
+
+ footer{
+    background-color: #6D4326;
+    padding: 30px;
+    width: 100%;
+    color: #efefee;
+    font-style: italic;
+}
+footer h3,h5{
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+.logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* footer end  */
